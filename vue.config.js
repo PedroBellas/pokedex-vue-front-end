@@ -13,6 +13,8 @@ module.exports = defineConfig({
     loaderOptions: {
       scss: {
         additionalData: `
+          @use "sass:map";
+          @import "~vuetify/src/styles/settings/_variables.scss";
           @import "@/styles/_variables.scss";
         `,
       },

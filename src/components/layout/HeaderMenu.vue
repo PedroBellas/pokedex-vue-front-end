@@ -35,7 +35,7 @@ export default {
     }
   }
 
-  @media screen and (min-width: $min-screen) {
+  @media #{map-get($display-breakpoints, 'xl-only')} {
     header {
       height: $header-height;
 
