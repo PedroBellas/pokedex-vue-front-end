@@ -11,7 +11,6 @@
 </template>
 
 <script>
-
 export default {
   name: 'FooterPage',
 };
@@ -21,7 +20,7 @@ export default {
   footer {
     grid-area: footer;
     width: 100%;
-    height: $mobile-footer-height;
+    height: $footer-height;
     background: $primary-color;
     font-size: 1.125rem;
     color: #FFFFFF;

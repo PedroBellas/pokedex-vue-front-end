@@ -18,7 +18,7 @@ export default {
   header {
     grid-area: header;
     width: 100%;
-    height: $mobile-header-height;
+    height: $header-height;
     background: $primary-color;
     padding: 0 $default-margin;
 
@@ -37,8 +37,6 @@ export default {
 
   @media #{map-get($display-breakpoints, 'xl-only')} {
     header {
-      height: $header-height;
-
       .logo {
         width: 30px;
         height: 30px;
